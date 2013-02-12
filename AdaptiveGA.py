@@ -42,7 +42,7 @@ def main():
 		bg = 0         #first generation of the best h value
 		board = []     #population of solutions
 		for x in range(2*n):   #2n boards
-			board.append([]) #represents a board
+	 		board.append([]) #represents a board
 			for k in range(n):
 				board[-1].append(randint(0, n-1)) #random initialization
 			board[x].insert(0, calc_h(board[x])*-1) #h-value for random initialization
