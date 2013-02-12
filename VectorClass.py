@@ -2,7 +2,7 @@ class Vector(object):
   
 	def __init__(self, *data):
 		if type(data[0])==Vector:
-		  self.data = list(data[0])
+		  self.data = list(data[0]) 
 		else:
 		  self.data = list(data)
 	
