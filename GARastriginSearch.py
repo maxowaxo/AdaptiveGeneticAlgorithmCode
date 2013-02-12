@@ -18,7 +18,7 @@ def main():
                 best_h = -10000
                 bg = 0
                 n = 20
-                board = []
+                board = [] 
                 for x in range(n):#2n boards
                         board.append([])#represents a board
                         board[x].append(0)
