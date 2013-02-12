@@ -27,7 +27,7 @@ def nextTriangle(A,B,C): #The Nelder-Mead algorithm used here to obtain a single
   else:
     A.equals(H)
     C.equals(I)
-    return B,C,A
+    return B,C,A 
    
 def triangleHasNotConverged(A, B, C): # Boolean result
   if (A-B).mag() < SMALLEST_TRIANGLE_SIZE:
